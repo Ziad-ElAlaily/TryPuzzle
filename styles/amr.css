@@ -1,0 +1,17 @@
+.wrapper {
+  display: inline-block;
+  position: relative;
+}
+.big-img {
+  width: 100%;
+  max-width: 100%;
+  border: 1px solid blue;
+}
+.small-img {
+  border: 1px solid red;
+  position: absolute;
+  right: 10%;
+  top: 10%;
+  width: 25%;
+  max-width: 25%;
+}
